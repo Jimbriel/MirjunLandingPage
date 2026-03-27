@@ -122,7 +122,7 @@ cd MirjunLandingPage
 
 | Canal | Detalle |
 |---|---|
-| 📧 Email | mirjunsa@hotmail.com |
+| 📧 Email | servicios@mirjun.com |
 | 📱 Teléfono | 098 674 6837 |
 | 💬 WhatsApp | [wa.me/593979448281](https://wa.me/593979448281) |
 | 📍 Ciudad | Guayaquil, Ecuador |
