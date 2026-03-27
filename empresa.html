@@ -35,9 +35,11 @@
                         "outline": "#6A2B86"
                     },
                     fontFamily: {
-                        "headline": ["Manrope"],
-                        "body": ["Inter"],
-                        "label": ["Inter"]
+                        "headline": ["Century Gothic", "AppleGothic", "sans-serif"],
+                        "body": ["Century Gothic", "AppleGothic", "sans-serif"],
+                        "label": ["Century Gothic", "AppleGothic", "sans-serif"],
+                        "inter": ["'Century Gothic'", "AppleGothic", "sans-serif"],
+                        "manrope": ["'Century Gothic'", "AppleGothic", "sans-serif"]
                     },
                     borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
                 },
@@ -91,9 +93,10 @@
             <div class="grid grid-cols-12">
                 <div class="col-span-12 md:col-span-8">
                     <span
-                        class="inline-block bg-primary text-on-primary px-4 py-1 font-label text-[10px] uppercase tracking-[0.2em] mb-6">Eficiencia, Calidad y Compromiso</span>
+                        class="inline-block bg-primary text-on-primary px-4 py-1 font-label text-[10px] uppercase tracking-[0.2em] mb-6">Eficiencia,
+                        Calidad y Compromiso</span>
                     <h1
-                        class="font-headline text-6xl md:text-8xl font-extrabold tracking-tighter text-on-surface leading-[0.9] mb-8">
+                        class="font-headline text-6xl md:text-8xl font-bold tracking-tighter text-on-surface leading-[0.9] mb-8">
                         CONVIRTIENDO IDEAS EN <br /> <span class="text-primary">PROYECTOS EXITOSOS.</span>
                     </h1>
                 </div>
@@ -107,26 +110,35 @@
             <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
                 <div class="md:col-span-7 relative reveal">
                     <div class="aspect-[3/2] bg-surface-container-high overflow-hidden shadow-2xl rounded-sm">
-                        <img class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" 
-                            style="transform: translateZ(0);"
-                            src="assets/img/ceibos.jpg" title="Nuestra Historia" alt="Historia Mirjun" />
+                        <img class="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                            style="transform: translateZ(0);" src="assets/img/ceibos.jpg" title="Nuestra Historia"
+                            alt="Historia Mirjun" />
                     </div>
-                    <div class="absolute -bottom-12 -right-12 hidden md:block w-64 h-64 bg-primary p-8 text-on-primary shadow-xl reveal z-10">
+                    <div
+                        class="absolute -bottom-12 -right-12 hidden md:block w-64 h-64 bg-primary p-8 text-on-primary shadow-xl reveal z-10">
                         <div class="font-headline text-4xl font-black">13</div>
-                        <div class="font-label text-xs uppercase tracking-widest mt-2">Expertos comprometidos con la calidad</div>
+                        <div class="font-label text-xs uppercase tracking-widest mt-2">Expertos comprometidos con la
+                            calidad</div>
                     </div>
                 </div>
                 <div class="md:col-span-5 md:pl-12 reveal">
-                    <h2 class="font-headline text-3xl font-extrabold tracking-tight mb-6 text-on-surface uppercase font-bold">Nuestra Historia
+                    <h2
+                        class="font-headline text-3xl font-extrabold tracking-tight mb-6 text-on-surface uppercase font-bold">
+                        Nuestra Historia
                     </h2>
-                    <p class="text-on-background/80 text-lg leading-relaxed mb-6 font-body">
-                        MIRJUN S.A. nace en el año <span class="font-bold text-primary">2022 en Guayaquil</span>, impulsada por un grupo de amigos que unió experiencia técnica y visión de crecimiento para ofrecer servicios confiables.
+                    <p class="text-on-background/80 text-lg leading-relaxed mb-6 font-body text-justify">
+                        MIRJUN S.A. nace en el año <span class="font-bold text-primary">2022 en Guayaquil</span>,
+                        impulsada por un grupo de amigos que unió experiencia técnica y visión de crecimiento para
+                        ofrecer servicios confiables.
                     </p>
-                    <p class="text-on-background/80 text-lg leading-relaxed mb-6 font-body">
-                        Iniciamos como un equipo de mantenimiento, destacándonos rápidamente por nuestro cumplimiento. Hoy, hemos crecido de 3 a 13 colaboradores, posicionándonos como un aliado estratégico capaz de ofrecer soluciones integrales en construcción e ingeniería.
+                    <p class="text-on-background/80 text-lg leading-relaxed mb-6 font-body text-justify">
+                        Iniciamos como un equipo de mantenimiento, destacándonos rápidamente por nuestro cumplimiento y calidad.
+                        Hoy, hemos crecido de 3 a 13 colaboradores, posicionándonos como un aliado estratégico capaz de
+                        ofrecer soluciones integrales en construcción e ingeniería.
                     </p>
-                    <p class="text-on-background/80 text-lg leading-relaxed font-body italic">
-                        "Convertimos las ideas de nuestros clientes en proyectos exitosos mediante soluciones prácticas y eficientes."
+                    <p class="text-on-background/80 text-lg leading-relaxed font-body italic text-justify">
+                        "Convertimos las ideas de nuestros clientes en proyectos exitosos mediante soluciones prácticas
+                        y eficientes."
                     </p>
                 </div>
             </div>
@@ -140,17 +152,25 @@
                 <!-- Misión -->
                 <div class="bg-white p-16 reveal">
                     <span class="material-symbols-outlined text-primary text-5xl mb-8">engineering</span>
-                    <h3 class="font-headline text-2xl font-bold mb-6 tracking-tight text-on-surface uppercase">Misión</h3>
-                    <p class="text-on-background/70 leading-relaxed font-body">
-                        Brindar soluciones integrales en construcción, mantenimiento de infraestructura, climatización, refrigeración y proyectos de ingeniería, garantizando calidad, eficiencia y cumplimiento de estándares técnicos y de seguridad. Nos comprometemos a satisfacer las necesidades de nuestros clientes mediante un servicio confiable e innovación constante.
+                    <h3 class="font-headline text-2xl font-bold mb-6 tracking-tight text-on-surface uppercase">Misión
+                    </h3>
+                    <p class="text-on-background/70 leading-relaxed font-body text-justify">
+                        Brindar soluciones integrales en construcción, mantenimiento de infraestructura, climatización,
+                        refrigeración y proyectos de ingeniería, garantizando calidad, eficiencia y cumplimiento de
+                        estándares técnicos y de seguridad. Nos comprometemos a satisfacer las necesidades de nuestros
+                        clientes mediante un servicio confiable e innovación constante.
                     </p>
                 </div>
                 <!-- Visión -->
                 <div class="bg-white p-16 reveal">
                     <span class="material-symbols-outlined text-primary text-5xl mb-8">visibility</span>
-                    <h3 class="font-headline text-2xl font-bold mb-6 tracking-tight text-on-surface uppercase">Visión</h3>
-                    <p class="text-on-background/70 leading-relaxed font-body">
-                        Ser una empresa líder en el sector de ingeniería, construcción y servicios técnicos especializados, reconocida por la excelencia en la ejecución de proyectos, la confiabilidad de nuestros servicios de mantenimiento y la capacidad de ofrecer soluciones eficientes para viviendas, edificaciones e instalaciones industriales. 
+                    <h3 class="font-headline text-2xl font-bold mb-6 tracking-tight text-on-surface uppercase">Visión
+                    </h3>
+                    <p class="text-on-background/70 leading-relaxed font-body text-justify">
+                        Ser una empresa líder en el sector de ingeniería, construcción y servicios técnicos
+                        especializados, reconocida por la excelencia en la ejecución de proyectos, la confiabilidad de
+                        nuestros servicios de mantenimiento y la capacidad de ofrecer soluciones eficientes para
+                        viviendas, edificaciones e instalaciones industriales.
                     </p>
                 </div>
             </div>
@@ -161,7 +181,8 @@
     <section class="py-24 bg-surface-container-low">
         <div class="max-w-7xl mx-auto px-6">
             <div class="mb-16">
-                <h2 class="font-headline text-4xl font-extrabold tracking-tighter text-on-surface uppercase">Valores y Compromiso</h2>
+                <h2 class="font-headline text-4xl font-extrabold tracking-tighter text-on-surface uppercase">Valores y
+                    Compromiso</h2>
                 <div class="w-24 h-2 bg-primary mt-4"></div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -172,25 +193,28 @@
                         <div class="text-primary font-bold text-5xl mb-4 group-hover:text-white">01.</div>
                         <h4 class="font-headline text-xl font-bold mb-4 text-on-surface group-hover:text-white">
                             RESPONSABILIDAD</h4>
-                        <p class="text-on-background/60 text-sm group-hover:text-white/80 font-body">Cumplimos con cada estándar de seguridad y calidad en beneficio de su inversión.</p>
+                        <p class="text-on-background/60 text-sm group-hover:text-white/80 font-body">Cumplimos con cada
+                            estándar de seguridad y calidad en beneficio de su inversión.</p>
                     </div>
                 </div>
                 <!-- Card 2 (Image) -->
                 <div class="md:col-span-2 bg-surface-container-high overflow-hidden relative min-h-[300px]">
-                    <img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="IESS Ceibos"
-                        src="assets/img/seguridad.jpg" />
+                    <img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                        alt="IESS Ceibos" src="assets/img/seguridad.jpg" />
                 </div>
                 <!-- Card 3 (Image) -->
                 <div class="md:col-span-1 bg-surface-container-high overflow-hidden min-h-[300px]">
-                    <img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="CNT Guayaquil"
-                        src="assets/img/responsabilidad.jpg" />
+                    <img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                        alt="CNT Guayaquil" src="assets/img/responsabilidad.jpg" />
                 </div>
                 <!-- Card 4 -->
                 <div
                     class="md:col-span-1 bg-white p-8 flex flex-col justify-between hover:bg-primary transition-colors duration-500 group border border-stone-100 font-bold">
                     <div>
-                        <div class="text-primary/30 font-bold text-3xl mb-4 group-hover:text-white/50 uppercase">02. SEGURIDAD</div>
-                        <p class="text-on-background/60 text-xs group-hover:text-white/80 font-body">Protocolos técnicos para garantizar resultados libres de riesgos.</p>
+                        <div class="text-primary/30 font-bold text-3xl mb-4 group-hover:text-white/50 uppercase">02.
+                            SEGURIDAD</div>
+                        <p class="text-on-background/60 text-xs group-hover:text-white/80 font-body">Protocolos técnicos
+                            para garantizar resultados libres de riesgos.</p>
                     </div>
                 </div>
                 <!-- Card 5 -->
@@ -199,16 +223,19 @@
                     <div class="space-y-6">
                         <div class="flex items-start gap-4">
                             <div class="text-primary font-bold">2022</div>
-                            <div class="text-stone-400 text-sm font-body">Fundación en Guayaquil e inicio de servicios de mantenimiento industrial.
+                            <div class="text-stone-400 text-sm font-body">Fundación en Guayaquil e inicio de servicios
+                                de mantenimiento industrial.
                             </div>
                         </div>
                         <div class="flex items-start gap-4">
                             <div class="text-primary font-bold">2023</div>
-                            <div class="text-stone-400 text-sm font-body">Colaboración en proyectos estratégicos con CNT e IESS Hospital de Los Ceibos.</div>
+                            <div class="text-stone-400 text-sm font-body">Colaboración en proyectos estratégicos con CNT
+                                e IESS Hospital de Los Ceibos.</div>
                         </div>
                         <div class="flex items-start gap-4">
                             <div class="text-primary font-bold">2024</div>
-                            <div class="text-stone-400 text-sm font-body">Crecimiento del equipo a 13 colaboradores y expansión a construcción integral.</div>
+                            <div class="text-stone-400 text-sm font-body">Crecimiento del equipo a 13 colaboradores y
+                                expansión a construcción integral.</div>
                         </div>
                     </div>
                 </div>
@@ -221,7 +248,8 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-16 max-w-7xl mx-auto">
             <div class="md:col-span-2">
                 <div class="text-lg font-bold text-stone-900 mb-6 tracking-tighter font-headline">MIRJUN S.A.</div>
-                <p class="font-manrope text-sm text-stone-600 max-w-md font-body">Aliado estratégico en servicios integrales de construcción, ingeniería y climatización en Ecuador.</p>
+                <p class="font-manrope text-sm text-stone-600 max-w-md font-body">Aliado estratégico en servicios
+                    integrales de construcción, ingeniería y climatización en Ecuador.</p>
                 <div class="mt-8 flex gap-6">
                     <a href="#" class="text-stone-400 hover:text-purple-800 transition-colors">Instagram</a>
                     <a href="#" class="text-stone-400 hover:text-purple-800 transition-colors">LinkedIn</a>
@@ -229,7 +257,8 @@
                 </div>
             </div>
             <div class="flex flex-col space-y-4">
-                <h4 class="font-manrope text-sm text-stone-900 font-bold uppercase tracking-widest mb-2 font-headline">Empresa</h4>
+                <h4 class="font-manrope text-sm text-stone-900 font-bold uppercase tracking-widest mb-2 font-headline">
+                    Empresa</h4>
                 <a class="font-manrope text-sm text-stone-500 hover:text-purple-800 hover:underline underline-offset-4 transition-all duration-200"
                     href="index.html">Inicio</a>
                 <a class="font-manrope text-sm text-stone-500 hover:text-purple-800 hover:underline underline-offset-4 transition-all duration-200"
@@ -238,7 +267,8 @@
                     href="contact.html">Contacto</a>
             </div>
             <div class="flex flex-col space-y-4">
-                <h4 class="font-manrope text-sm text-stone-900 font-bold uppercase tracking-widest mb-2 font-headline">Contacto</h4>
+                <h4 class="font-manrope text-sm text-stone-900 font-bold uppercase tracking-widest mb-2 font-headline">
+                    Contacto</h4>
                 <p class="font-manrope text-sm text-stone-500 font-body">Guayaquil, Ecuador</p>
                 <p class="font-manrope text-sm text-stone-500 font-body">098 674 6837</p>
                 <p class="font-manrope text-sm text-stone-500 font-body">servicios@mirjun.com</p>
