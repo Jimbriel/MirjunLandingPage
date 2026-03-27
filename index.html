@@ -51,9 +51,9 @@
     <!-- TopNavBar -->
     <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md transition-all duration-300">
         <div class="max-w-7xl mx-auto px-8 h-20 flex items-center justify-between">
-            <div class="text-xl font-black text-purple-800 tracking-tighter">
-                <a href="index.html">MIRJUN S.A.</a>
-            </div>
+            <a href="index.html" class="flex items-center">
+                <img src="assets/img/logo.png" alt="MIRJUN S.A." class="h-12 w-auto">
+            </a>
             <div class="hidden md:flex items-center space-x-12">
                 <a class="font-manrope font-semibold tracking-tight text-sm text-stone-700 hover:text-purple-700 transition-colors"
                     href="index.html">Inicio</a>
@@ -83,10 +83,14 @@
     <main>
         <!-- Hero Section -->
         <section class="relative h-screen flex items-center overflow-hidden">
-            <div class="absolute inset-0 z-0">
-                <img alt="Construcción Mirjun Guayaquil" class="w-full h-full object-cover"
-                    src="assets/img/ceibos.jpg" />
-                <div class="absolute inset-0 bg-stone-900/40 backdrop-brightness-75"></div>
+            <div class="absolute inset-0 z-0 bg-black" id="hero-carousel">
+                <img alt="Construcción Mirjun Guayaquil 1" class="w-full h-full object-cover transition-opacity duration-1000 opacity-100 absolute inset-0"
+                    src="assets/img/carousel.jpg" />
+                <img alt="Construcción Mirjun Guayaquil 2" class="w-full h-full object-cover transition-opacity duration-1000 opacity-0 absolute inset-0"
+                    src="assets/img/carousel0.jpg" />
+                <img alt="Construcción Mirjun Guayaquil 3" class="w-full h-full object-cover transition-opacity duration-1000 opacity-0 absolute inset-0"
+                    src="assets/img/carousel1.jpg" />
+                <div class="absolute inset-0 bg-stone-900/40 backdrop-brightness-75 z-10 pointer-events-none"></div>
             </div>
             <div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
                 <div class="max-w-3xl">
@@ -97,7 +101,7 @@
                         Soluciones Integrales en <span class="text-purple-300">Ingeniería</span> y Construcción.
                     </h1>
                     <p class="text-stone-100 text-lg mb-10 max-w-xl font-body leading-relaxed">
-                        Desde Guayaquil para todo el Ecuador. Somos expertos en construcción, mantenimiento industrial, climatización y adecuación de espacios con resultados de alto nivel.
+                        Somos expertos en construcción, mantenimiento industrial, climatización y adecuación de espacios con resultados de alto nivel.
                     </p>
                     <div class="flex flex-wrap gap-4">
                         <a href="contact.html"
@@ -184,9 +188,10 @@
                         class="font-manrope uppercase tracking-widest text-sm font-bold text-primary border-b-2 border-primary pb-1 hover:text-purple-700 hover:border-purple-700 transition-all">Conocer nuestra historia</a>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
-                    <div class="md:col-span-8 relative group overflow-hidden h-[500px]">
+                    <div class="md:col-span-8 relative group overflow-hidden h-[450px] rounded-sm shadow-xl">
                         <img alt="Hospital IESS"
-                            class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                            class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
+                            style="transform: translateZ(0);"
                             src="assets/img/ceibos2.jpg" />
                         <div
                             class="absolute bottom-0 left-0 p-8 bg-white/90 backdrop-blur-md m-6 max-w-xs transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
@@ -195,9 +200,10 @@
                             <h4 class="font-headline font-bold text-lg text-on-surface">Adecuación Hospitalaria Los Ceibos</h4>
                         </div>
                     </div>
-                    <div class="md:col-span-4 relative group overflow-hidden h-[500px]">
+                    <div class="md:col-span-4 relative group overflow-hidden h-[450px] rounded-sm shadow-xl">
                         <img alt="CNT Telecom"
-                            class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                            class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
+                            style="transform: translateZ(0);"
                             src="assets/img/CNT.jpg" />
                         <div
                             class="absolute bottom-0 left-0 p-8 bg-white/90 backdrop-blur-md m-6 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
@@ -222,7 +228,7 @@
                         Escríbenos al WhatsApp
                     </a>
                     <p class="text-on-surface-variant font-label text-[0.7rem] uppercase tracking-widest opacity-60 text-center">
-                        Atención personalizada: 097 944 8281 <br/> Guayaquil - Ecuador</p>
+                        Atención personalizada: 098 674 6837 <br/> Guayaquil - Ecuador</p>
                 </div>
             </div>
         </section>
@@ -251,7 +257,7 @@
             <div class="flex flex-col space-y-4">
                 <h4 class="font-manrope text-sm text-stone-900 font-bold uppercase tracking-widest mb-2">Contacto</h4>
                 <p class="font-manrope text-sm text-stone-500">Guayaquil, Ecuador</p>
-                <p class="font-manrope text-sm text-stone-500">097 944 8281</p>
+                <p class="font-manrope text-sm text-stone-500">098 674 6837</p>
                 <p class="font-manrope text-sm text-stone-500">servicios@mirjun.com</p>
             </div>
         </div>

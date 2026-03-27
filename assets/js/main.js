@@ -70,4 +70,24 @@ document.addEventListener('DOMContentLoaded', () => {
     // Dynamic copyright year
     const yearSpan = document.getElementById('footer-year');
     if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+
+    // Hero Carousel Animation
+    const heroCarousel = document.getElementById('hero-carousel');
+    if (heroCarousel) {
+        const images = heroCarousel.querySelectorAll('img');
+        let currentImageIndex = 0;
+        
+        setInterval(() => {
+            // Fade out current image
+            images[currentImageIndex].classList.remove('opacity-100');
+            images[currentImageIndex].classList.add('opacity-0');
+            
+            // Move to next image
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            
+            // Fade in next image
+            images[currentImageIndex].classList.remove('opacity-0');
+            images[currentImageIndex].classList.add('opacity-100');
+        }, 5000); // Change image every 5 seconds
+    }
 });
