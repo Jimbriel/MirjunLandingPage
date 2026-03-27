@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
@@ -44,7 +44,7 @@
             },
         }
     </script>
-    <script src="main.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
 </head>
 
 <body class="bg-background text-on-background font-body selection:bg-primary/20 selection:text-primary">
@@ -238,26 +238,32 @@
                 </div>
                 <!-- Full Width Map Placeholder -->
                 <div class="md:col-span-12 h-[500px] bg-surface-container relative overflow-hidden mt-8">
-                    <img alt="Mapa de Guayaquil - Parque Empresarial Colón"
-                        class="w-full h-full object-cover grayscale opacity-60 contrast-125"
-                        src="https://maps.googleapis.com/maps/api/staticmap?center=-2.1515016,-79.9075398&zoom=16&size=1200x500&scale=2&maptype=roadmap&markers=color:black%7C-2.1515016,-79.9075398&key=TU_API_KEY" />
+
+                    <iframe class="w-full h-full "
+                        src="https://www.google.com/maps?q=-2.1515016,-79.9075398&z=16&output=embed" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
 
                     <div
                         class="absolute top-8 left-8 bg-white/90 backdrop-blur-md p-8 max-w-xs shadow-xl border border-stone-100">
                         <h3 class="font-headline font-extrabold text-xl mb-2 uppercase">Guayaquil - Ecuador</h3>
-                        <p class="text-sm text-secondary leading-relaxed mb-1 font-body font-bold">Parque Empresarial
-                            Colón</p>
-                        <p class="text-xs text-secondary leading-relaxed mb-6 font-body">Av. Rodrigo Chavez, 090510.
-                            Centro estratégico de negocios y servicios.</p>
+                        <p class="text-sm text-secondary leading-relaxed mb-1 font-body font-bold">
+                            Parque Empresarial Colón
+                        </p>
+                        <p class="text-xs text-secondary leading-relaxed mb-6 font-body">
+                            Av. Rodrigo Chavez, 090510. Centro estratégico de negocios y servicios.
+                        </p>
 
                         <a class="inline-flex items-center gap-2 font-label text-[0.7rem] font-bold uppercase tracking-[0.2em] text-primary group"
-                            target="_blank"
-                            href="https://maps.google.com/?cid=2838706414785188851&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNl">
+                            target="_blank" href="https://maps.google.com/?cid=2838706414785188851">
                             Ver Ubicación
                             <span
-                                class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">north_east</span>
+                                class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">
+                                north_east
+                            </span>
                         </a>
                     </div>
+
                 </div>
             </div>
         </section>

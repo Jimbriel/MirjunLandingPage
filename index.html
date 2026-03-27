@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
@@ -44,7 +44,7 @@
             },
         }
     </script>
-    <script src="main.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
 </head>
 
 <body class="bg-background text-on-background font-body selection:bg-primary-container selection:text-on-primary">
@@ -85,7 +85,7 @@
         <section class="relative h-screen flex items-center overflow-hidden">
             <div class="absolute inset-0 z-0">
                 <img alt="Construcción Mirjun Guayaquil" class="w-full h-full object-cover"
-                    src="img/ceibos.jpg" />
+                    src="assets/img/ceibos.jpg" />
                 <div class="absolute inset-0 bg-stone-900/40 backdrop-brightness-75"></div>
             </div>
             <div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
@@ -146,7 +146,7 @@
                 </div>
                 <div class="md:col-span-5 h-[400px] md:h-auto">
                     <img alt="Ingeniería MIRJUN" class="w-full h-full object-cover"
-                        src="img/Whoami2.jpg" />
+                        src="assets/img/Whoami2.jpg" />
                 </div>
                 <div
                     class="md:col-span-4 bg-surface-container-lowest p-8 flex flex-col border-b-2 border-transparent hover:border-primary transition-all group reveal">
@@ -187,7 +187,7 @@
                     <div class="md:col-span-8 relative group overflow-hidden h-[500px]">
                         <img alt="Hospital IESS"
                             class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-                            src="img/ceibos2.jpg" />
+                            src="assets/img/ceibos2.jpg" />
                         <div
                             class="absolute bottom-0 left-0 p-8 bg-white/90 backdrop-blur-md m-6 max-w-xs transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                             <p class="font-label text-[0.6rem] uppercase tracking-widest font-bold text-primary mb-2">
@@ -198,7 +198,7 @@
                     <div class="md:col-span-4 relative group overflow-hidden h-[500px]">
                         <img alt="CNT Telecom"
                             class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-                            src="img/Whoami.jpg" />
+                            src="assets/img/CNT.jpg" />
                         <div
                             class="absolute bottom-0 left-0 p-8 bg-white/90 backdrop-blur-md m-6 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
                             <p class="font-label text-[0.6rem] uppercase tracking-widest font-bold text-primary mb-2">
@@ -257,7 +257,7 @@
         </div>
         <div class="max-w-7xl mx-auto px-8 pb-8">
             <div class="border-t border-stone-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                <p class="font-manrope text-sm text-stone-600">© 2024 MIRJUN S.A. Architectural Integrity.</p>
+                <p class="font-manrope text-sm text-stone-600">© <span id="footer-year"></span> MIRJUN S.A. Architectural Integrity.</p>
                 <div class="flex gap-4">
                     <span class="material-symbols-outlined text-stone-300 text-lg">verified_user</span>
                     <span class="material-symbols-outlined text-stone-300 text-lg">architecture</span>
