@@ -74,7 +74,7 @@ contact.html
 
 CONTACTO DE LA EMPRESA
 ----------------------
-Email   : servicios@mirjun.com
+Email   : mirjunsa@hotmail.com
 Telefono: 098 674 6837
 WhatsApp: https://wa.me/593979448281
 Ciudad  : Guayaquil, Ecuador

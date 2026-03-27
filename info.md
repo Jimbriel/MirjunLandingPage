@@ -6,7 +6,7 @@
 * [cite_start]**Propuesta de Valor:** Servicios integrales en eficiencia hidrosanitaria, industrial y climatización. [cite: 7, 8]
 * [cite_start]**Ubicación:** Guayaquil (GYE), Ecuador. [cite: 3, 84]
 * [cite_start]**Teléfono de Contacto:** 098 674 6837 [cite: 2, 83]
-* [cite_start]**Correo Electrónico:** servicios@mirjun.com [cite: 1, 82]
+* [cite_start]**Correo Electrónico:** mirjunsa@hotmail.com [cite: 1, 82]
 
 ---
 
