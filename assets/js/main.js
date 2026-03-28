@@ -31,6 +31,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelectorAll('nav a');
     
     navLinks.forEach(link => {
+        // Prevent applying active styles to the logo link
+        if (link.querySelector('img')) return;
+        
         const linkPath = link.getAttribute('href');
         if (linkPath === currentPath) {
             link.classList.add('text-purple-800', 'border-b-2', 'border-purple-800', 'pb-1');
